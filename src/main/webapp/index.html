@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Utilisateurs - Accueil</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            background: #f4f7f9; /* Gris très clair pro */
+            margin: 0;
+            padding: 0;
+        }
+
+        .welcome-section {
+            /* Remplacement du rose par un dégradé bleu professionnel */
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            padding: 80px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 50px auto;
+            max-width: 900px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .welcome-section:hover {
+            transform: translateY(-8px);
+        }
+
+        .welcome-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .welcome-title {
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            /* Couleur bleu nuit pour le titre */
+            color: #2c3e50;
+            font-weight: 700;
+        }
+
+        .welcome-description {
+            font-size: 1.25em;
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .btn-start {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.3s;
+        }
+
+        .btn-start:hover {
+            background-color: #2980b9;
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="welcome-section">
+        <div class="welcome-container">
+            <h2 class="welcome-title">Système de Gestion des Utilisateurs</h2>
+            <p class="welcome-description">
+               Pilotez l'ensemble de votre répertoire utilisateur via une interface unique. 
+               Une application intuitive conçue pour garantir l'intégrité des données et fluidifier vos opérations de maintenance quotidiennes.
+            </p>
+            <a href="list" class="btn-start">Accéder au Répertoire</a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; color: #7f8c8d; font-size: 0.9em; margin-top: 50px;">
+        AdjiFatou Diop &copy; 2026 - Master 2 GLSI - Ecole Supérieure Polytechnique
+    </footer>
+
+</body>
+</html>
