@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="<c:url value='/index.html' />">Accueil</a></li>
-            <li><a href="<c:url value='/list' />"></a>Lister</li>
+            <li><a href="<c:url value='/list' />">Lister</a></li>
             <li><a href="<c:url value='/add' />">Ajouter</a></li>
         </ul>
     </nav>
