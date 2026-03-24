@@ -11,7 +11,7 @@
                         
         
         <property name="java-output-path" value="/gesUsers1/build/classes"/>
-        <property name="context-root" value="gesUsers"/>
+        <property name="context-root" value="gesUsers2"/>
                     
     
     </wb-module>
